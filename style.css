@@ -11,16 +11,16 @@ body{
     height: 100vh;
 }
 
-.interface{
+.limite{
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.flex{
+.flexivel{
     display: flex;
 }
 
-.Contato button{
+.contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -36,7 +36,7 @@ header{
     padding: 40px 4%;
 }
 
-header > .interface{
+header > .limite{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,45 +63,45 @@ header nav ul li{
     padding: 0 40px;
 }
 
-.Contato button:hover{
+.contato button:hover{
     box-shadow: 0px 0px 8px #00ff08;
     transform: scale(1,01);
 
 }
 
 /* ESTILO DO TOPO DO SITE*/
-section.topo-do-site{
+section.corpo_do_site{
     padding: 40px 4%;
 }
 
-section.topo-do-site .flex{
+section.corpo_do_site .flexivel{
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.topo-do-site h1{
+.corpo_do_site h1{
     color: #ffffff;
     font-size: 42px;
     line-height: 40px;
 }
 
-.topo-do-site .txt-topo-site h1 span{
+.corpo_do_site .texto_site h1 span{
     color: #00FF08;
 }
 
-.topo-do-site .txt-topo-site p{
+.corpo_do_site .texto_site p{
     color:  #ffffff;
     margin: 40px 0;
     font-size: 160%;
 }
 
-.topo-do-site .img-topo-site img{
+.corpo_do_site .imagen_futuante img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-.topo-do-site .git{
+.corpo_do_site .git{
     padding: 40px 4%;
 }
 
